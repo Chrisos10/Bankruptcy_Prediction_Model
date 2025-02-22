@@ -58,3 +58,24 @@ Some NNs also presented risks of overfitting and they might be too smart for the
 This lead to a conclusion that **model1** in the saved modls directory was the best model in this project.
 
 # Link To Video
+
+
+# Notebook Usage & Loading The Best Model
+There are various ways to access the notebook
+One of them is to use the notebook through google drive via the following commands;
+- clone the repo using;
+```
+git clone Repo URL
+```
+Upload the notebook to google drive and then open the notebook. 
+
+To laoad the best model(model1.pkl);
+Follow these commands
+```
+import pickle
+```
+```
+with open("model.pkl", "rb") as f:
+    model = pickle.load(f)
+
+```
