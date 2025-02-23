@@ -60,8 +60,7 @@ Some NNs also presented risks of overfitting and they might be too smart for the
 This lead to a conclusion that **model1** in the saved modls directory was the best model in this project.
 
 # Link To Video
-
-
+Discussion Video Link: https://drive.google.com/file/d/1uywMFtgc2QO_NXcjZr8MAVoaXkOF90Ob/view?usp=sharing
 # Notebook Usage & Loading The Best Model
 There are various ways to access the notebook
 One of them is to use the notebook through google drive via the following commands;
