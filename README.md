@@ -51,6 +51,8 @@ F1 Score: 0.3548
 
 It shows a higher accuracy and precision but the recall is low per the reason identified above(Low positive data in the dataset). It had 512 neurons which were able to identify the trends. It also used adam as an optimizer and applied a dropout of 0.2 on the hidden layers, an l2 regularizer with a rate of 0.05 which carefully regularized the weights allowing more generalization and reduced overfitting.
 
+
+**Different Optimizers**: Since optimizers control how weights are updated during training, turns out that Adam optimizer had the most accurate updates of weights and biases than RMSprop, adagrad or even nadam that I used on other instances. This is concluded based on the facts that regularizers did not change much and so optimizers are accountable.
 # A Neural Network VS A Classic ML Model
 The classic ML model performed better than the neural network. This can be seen from a difference in metrics where the classic ml has a slightly higher accuracy of 97% while the NN had 96%. Also, the precision was much higher and other metrics like f1-score and recall although they were both affected by the high imbalance in the dataset of the positive and the negative classes.
 
